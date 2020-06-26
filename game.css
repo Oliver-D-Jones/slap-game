@@ -7,3 +7,7 @@ body{
   border: 10px outset #FFD700;
 	box-shadow: 14px 14px 6px #222222;
 }
+.img-fluid{
+  max-width: 80vh;
+  height: 70vh;
+}
