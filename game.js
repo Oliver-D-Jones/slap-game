@@ -46,8 +46,8 @@ function punch(){
 function showPerson(){
   //let iImageToShow = Math.floor()
   oImageOutput.src = "main-1.jpg"
-  if(iHealth<=0)
-    oImageOutput.src= "main-final.jpg";
+  if(iHealth<1)
+    oImageOutput.src= "knock_out.jpg";
 }
 //update function display the new iHealth value
 function updateHealth(){
