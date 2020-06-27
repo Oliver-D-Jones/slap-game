@@ -73,7 +73,7 @@ function knockedOut(){
   iImageTimer = null
   oHealthOutput.textContent = "Knocked Out";
   oNameOutput.textContent = "Mike Tyson";
-  document.getElementById("btn_group").innerHTML = '<div class="col-3 text-center my-3"><button type="button" onclick="getBackUp()" class="btn btn-primary">Get Back Up?</button></div>';
+  document.getElementById("btn_group").innerHTML = '<div class="col-sm-3 text-center my-3"><button type="button" onclick="getBackUp()" class="btn btn-primary">Get Back Up?</button></div>';
 }
 function getBackUp(){
   window.location.reload();
